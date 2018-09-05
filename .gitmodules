@@ -1,0 +1,3 @@
+[submodule "public/Flat-UI"]
+	path = public/Flat-UI
+	url = git@github.com:sjzzhanglu/Flat-UI.git
