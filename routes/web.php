@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/demo', function () {
     return view('welcome');
+});
+// 首页
+Route::get('/', function () {
+    return view('home');
 });
