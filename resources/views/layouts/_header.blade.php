@@ -2,6 +2,7 @@
 <style media="screen">
     .z-logo{max-height: 35px; margin-left: 30px;}
     .z-logo img{max-height: 35px}
+    .navbar{border-radius: 0px}
 </style>
 <div class="row demo-row">
 <div class="col">
