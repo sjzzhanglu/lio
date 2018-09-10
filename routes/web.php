@@ -22,3 +22,7 @@ Route::get('/', function () {
 Route::get('/thematic', function () {
     return view('thematic.default');
 });
+// 详情页
+Route::get('/detail', function () {
+    return view('details.default');
+});
