@@ -18,3 +18,7 @@ Route::get('/demo', function () {
 Route::get('/', function () {
     return view('home');
 });
+// 专题
+Route::get('/thematic', function () {
+    return view('thematic.default');
+});

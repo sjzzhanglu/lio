@@ -1,29 +1,39 @@
-@include('home._banner')
 <style media="screen">
-    .demo-row .z-tag{margin:0px 0px 10px 15px}
-    img.zavator{width: 30px}
-    .zbar{margin:0px 0px 10px 0px}
+    .col-3 .thematic{color:#34495e}
 </style>
 <div class="row">
-    <div class="col-9">
-        <div class="row demo-row">
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Primaryafdc</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Pri Button</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Primaryon</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Priry</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Pritton</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Priton</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Primary Button</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Pritton</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">PriButton</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Priy Button</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Priton</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Primary Button</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">Pritton</a>
-            <a href="#fakelink" class="btn btn-sm btn-default z-tag">PriButton</a>
-            <a href="#" class="btn btn-sm btn-default z-tag">更多专题 ></a>
+   <div class="col-9">
+       <div class="row">
+           <div class="col-2">
+               <img src="http://127.0.0.1:8067/Flat-UI/docs/assets/images/example-image.jpg" alt="Toilet-Paper" class="img-rounded img-responsive">
+           </div>
+           <div class="col-6">
+               <div class="swatches-desc-col">
+                 <h6 class="palette-headline">SWATCHES</h6>
+                  <p class="palette-paragraph">
+                    Colors — is almost the most important part of the <strong>Flat UI</strong>. Better to use different shades of provided colors than new.
+                  </p>
+              </div>
+           </div>
+           <div class="col-4">
+               <div class="row">
+                   <div class="col">
+                      <a href="#fakelink" class="btn btn-block btn-sm btn-primary">投稿</a>
+                   </div>
+                   <div class="col">
+                     <a href="#fakelink" class="btn btn-block btn-sm btn-default disabled">已关注</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="btn-toolbar">
+          <div class="btn-group">
+            <a class="btn btn-primary btn-sm active" href="#fakelink"><span class="fui-chat"></span>最热评论</a>
+            <a class="btn btn-primary btn-sm" href="#fakelink"><span class="fui-eye"></span>最新收录</span></a>
+            <a class="btn btn-primary btn-sm" href="#fakelink"><span class="fui-heart"></span>热门</a>
+          </div>
         </div>
-        <div class="demo-content">
+        <div class="demo-content" style="margin-top:10px">
             <div class="demo-type-example" id="articlelist">
                 <div class="row">
                     <div class="col-10">
@@ -110,71 +120,15 @@
               <a href="#fakelink" class="btn btn-block btn-sm btn-primary" id="morez">加载更多</a>
             </div>
         </div>
-    </div>
-    <div class="col-3">
-        <div class="demo-row col row">
-          <form class="navbar-form form-inline my-2 my-lg-0" action="#" role="search">
-            <div class="form-group">
-              <div class="input-group">
-                <input class="form-control" id="navbarInput-01" type="search" placeholder="Search">
-                <span class="input-group-btn">
-                  <button type="submit" class="btn"><span class="fui-search"></span></button>
-                </span>
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <div class="tile">
-          <img src="{{ url('/') }}/Flat-UI/docs/assets/images/icons/compas.svg" alt="Compas" class="tile-image big-illustration">
-          <h3 class="tile-title">Web Oriented</h3>
-          <p>100% convertable to HTML/CSS layout.</p>
-          <a class="btn btn-primary btn-large btn-block" href="https://designmodo.com/flat">Get Pro</a>
-        </div>
-        <div class="tile row zbar">
-            <div class="col-8">
-                <img src="{{ url('/') }}/Flat-UI/docs/assets/images/icons/compas.svg" alt="Compas" class="big-illustration zavator">
-                sjzzhanglu
-            </div>
-            <div class="col-4">
-                 <a class="btn btn-primary btn-xs" href="https://designmodo.com/flat">关注</a>
-            </div>
-        </div>
-        <div class="tile row zbar">
-            <div class="col-8">
-                <img src="{{ url('/') }}/Flat-UI/docs/assets/images/icons/compas.svg" alt="Compas" class="big-illustration zavator">
-                sjzzhanglu
-            </div>
-            <div class="col-4">
-                 <a class="btn btn-primary btn-xs" href="https://designmodo.com/flat">关注</a>
-            </div>
-        </div>
-        <div class="tile row zbar">
-            <div class="col-8">
-                <img src="{{ url('/') }}/Flat-UI/docs/assets/images/icons/compas.svg" alt="Compas" class="big-illustration zavator">
-                sjzzhanglu
-            </div>
-            <div class="col-4">
-                 <a class="btn btn-primary btn-xs" href="https://designmodo.com/flat">关注</a>
-            </div>
-        </div>
-        <div class="tile row zbar">
-            <div class="col-8">
-                <img src="{{ url('/') }}/Flat-UI/docs/assets/images/icons/compas.svg" alt="Compas" class="big-illustration zavator">
-                sjzzhanglu
-            </div>
-            <div class="col-4">
-                 <a class="btn btn-primary btn-xs" href="https://designmodo.com/flat">关注</a>
-            </div>
-        </div>
-        <div class="tile row zbar">
-            <div class="col-8">
-                <img src="{{ url('/') }}/Flat-UI/docs/assets/images/icons/compas.svg" alt="Compas" class="big-illustration zavator">
-                sjzzhanglu
-            </div>
-            <div class="col-4">
-                 <a class="btn btn-primary btn-xs" href="https://designmodo.com/flat">关注</a>
-            </div>
-        </div>
-    </div>
+   </div>
+   <div class="col-3">
+       <div class="swatches-desc-col">
+		      <h6 class="palette-headline">专题公告</h6>
+          <p class="palette-paragraph thematic">
+            Colors — is almost the most important part of the <strong>Flat UI</strong>. Better to use different shades of provided colors than new.
+            Colors — is almost the most important part of the <strong>Flat UI</strong>. Better to use different shades of provided colors than new.
+            Colors — is almost the most important part of the <strong>Flat UI</strong>. Better to use different shades of provided colors than new.
+          </p>
+	   </div>
+   </div>
 </div>
