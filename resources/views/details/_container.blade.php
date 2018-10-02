@@ -8,7 +8,7 @@
 </div>
 <div class="row" style="width:50%;margin:0 auto">
     <div class="col-2">
-        <img src="http://127.0.0.1:8067/Flat-UI/docs/assets/images/icons/loop.svg" alt="Infinity-Loop">
+        <img src="{{ url('/') }}/Flat-UI/docs/assets/images/icons/loop.svg" alt="Infinity-Loop">
     </div>
     <div class="col-8">
         <div class="swatches-desc-col z-d-font">
@@ -45,7 +45,7 @@
 </div>
 <div class="row">
     <div class="col-1">
-        <img src="http://127.0.0.1:8067/Flat-UI/docs/assets/images/icons/loop.svg" alt="Infinity-Loop" class="z-d-img">
+        <img src="{{ url('/') }}/Flat-UI/docs/assets/images/icons/loop.svg" alt="Infinity-Loop" class="z-d-img">
     </div>
     <div class="col-11">
         <div class="swatches-desc-col z-d-font">
@@ -61,7 +61,7 @@
 </div>
 <div class="row">
     <div class="col-1">
-        <img src="http://127.0.0.1:8067/Flat-UI/docs/assets/images/icons/loop.svg" alt="Infinity-Loop" class="z-d-img">
+        <img src="{{ url('/') }}/Flat-UI/docs/assets/images/icons/loop.svg" alt="Infinity-Loop" class="z-d-img">
     </div>
     <div class="col-11">
         <div class="swatches-desc-col z-d-font">

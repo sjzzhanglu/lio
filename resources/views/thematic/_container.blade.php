@@ -5,7 +5,7 @@
    <div class="col-9">
        <div class="row">
            <div class="col-2">
-               <img src="http://127.0.0.1:8067/Flat-UI/docs/assets/images/example-image.jpg" alt="Toilet-Paper" class="img-rounded img-responsive">
+               <img src="{{ url('/') }}/Flat-UI/docs/assets/images/example-image.jpg" alt="Toilet-Paper" class="img-rounded img-responsive">
            </div>
            <div class="col-6">
                <div class="swatches-desc-col">
