@@ -1,44 +1,49 @@
-<div class="row demo-samples">
+<style type="text/css">
+  .banner-left .todo li:after{
+    display: none;
+  }
+  .banner-left .todo li:first-child{
+    border-radius: 6px 6px 0px 0px;
+  }
+  .banner-left .todo ul{
+    border-radius: 6px;
+  }
+  .banner-right img{
+    width: 100%;
+    height: 254px;
+    border-radius: 6px;
+  }
+</style>
+<div class="row demo-samples banner-left">
   <div class="col-4">
     <div class="todo">
-      <div class="todo-search">
-        <input class="todo-search-field" type="search" value="" placeholder="Search" />
-      </div>
       <ul>
-        <li class="todo-done">
-          <div class="todo-icon fui-user"></div>
+        <li>
           <div class="todo-content">
             <h4 class="todo-name">
-              Meet <strong>Adrian</strong> at <strong>6pm</strong>
+              11月热门
             </h4>
-            Times Square
           </div>
         </li>
         <li>
-          <div class="todo-icon fui-list"></div>
           <div class="todo-content">
             <h4 class="todo-name">
-              Chat with <strong>V.Kudinov</strong>
+             12月热门
             </h4>
-            Skype conference an 9 am
           </div>
         </li>
         <li>
-          <div class="todo-icon fui-eye"></div>
           <div class="todo-content">
             <h4 class="todo-name">
-              Watch <strong>Iron Man</strong>
+              书刊推荐
             </h4>
-            1998 Broadway
           </div>
         </li>
         <li>
-          <div class="todo-icon fui-time"></div>
           <div class="todo-content">
             <h4 class="todo-name">
-              Fix bug on a <strong>Website</strong>
+              成长路线
             </h4>
-            As soon as possible
           </div>
         </li>
       </ul>
@@ -46,22 +51,8 @@
   </div><!-- /.col-4 -->
 
   <div class="col-8">
-    <video
-      id="my-player"
-      class="video-js"
-      controls
-      preload="auto"
-      poster="{{ url('/') }}/Flat-UI/docs/assets/images/video/poster.jpg"
-      data-setup='{}'>
-      <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.mp4" type="video/mp4"></source>
-      <source src="http://iurevych.github.com/Flat-UI-videos/big_buck_bunny.webm" type="video/webm"></source>
-      <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a
-        web browser that
-        <a href="http://videojs.com/html5-video-support/" target="_blank">
-          supports HTML5 video
-        </a>
-      </p>
-    </video>
-  </div> <!-- /video -->
+    <div class="banner-right">
+      <img src="{{ url('/') }}/Flat-UI/docs/assets/images/example-image.jpg" alt="First slide">
+    </div>
+  </div> <!-- /banner -->
 </div>
