@@ -1,4 +1,9 @@
-<footer>
+<style media="screen">
+  .zfooter{
+    border-top: 3px solid #fff;
+  }
+</style>
+<footer class="zfooter">
   <div class="container">
     <div class="row">
       <div class="col-7">

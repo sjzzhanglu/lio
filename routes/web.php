@@ -26,3 +26,13 @@ Route::get('/thematic', function () {
 Route::get('/detail', function () {
     return view('details.default');
 });
+
+// 登录注册
+Route::group(['prefix'=>'user'], function(){
+  Route::get('login', function () {
+    return view('user.login');
+  });
+  Route::get('register', function () {
+    return view('user.register');
+  });
+});
