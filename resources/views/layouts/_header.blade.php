@@ -34,5 +34,8 @@
 </div>
 </div>
 <div class="zremind">
-  <a href="#fakelink" class="btn btn-block btn-lg btn-warning">重置密码成功！<small>点击关闭</small></a>
+  <a class="btn btn-block btn-lg btn-warning">重置密码成功！<small>点击关闭</small></a>
 </div>
+<script type="text/javascript">
+  
+</script>

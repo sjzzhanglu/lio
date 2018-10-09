@@ -39,6 +39,9 @@
           $('#morez').click(function(){
               $('#articlelist').append($('#articlelist').children('.row').clone());
           })
+          $('.zremind').click(function(){
+            $(this).empty();
+          })
       </script>
     </body>
 </html>
