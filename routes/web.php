@@ -35,4 +35,7 @@ Route::group(['prefix'=>'user'], function(){
   Route::get('register', function () {
     return view('user.register');
   });
+  Route::get('forgot', function () {
+    return view('user.forgot');
+  });
 });

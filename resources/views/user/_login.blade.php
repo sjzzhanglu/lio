@@ -15,5 +15,5 @@
   </div>
 
   <a class="btn btn-primary btn-lg btn-block" href="#">登录</a>
-  <a class="login-link" href="#">忘记密码?</a>
+  <a class="login-link" href="{{ url('user/forgot') }}">忘记密码?</a>
 </div>

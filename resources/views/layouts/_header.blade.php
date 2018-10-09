@@ -3,6 +3,7 @@
     .z-logo{max-height: 35px; margin-left: 30px;}
     .z-logo img{max-height: 35px}
     .navbar{border-radius: 0px}
+    .zremind{ position: relative;top: -48px;display: none;}
 </style>
 <div class="row demo-row">
 <div class="col">
@@ -31,4 +32,7 @@
     </div><!-- /.navbar-collapse -->
   </nav><!-- /navbar -->
 </div>
+</div>
+<div class="zremind">
+  <a href="#fakelink" class="btn btn-block btn-lg btn-warning">重置密码成功！<small>点击关闭</small></a>
 </div>
