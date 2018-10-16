@@ -39,3 +39,11 @@ Route::group(['prefix'=>'user'], function(){
     return view('user.forgot');
   });
 });
+
+// 写文章
+Route::get('/write', function () {
+  return view('write.post');
+});
+
+// 编辑器上传图片
+Route::get('home/upload', 'HomeController@upload');

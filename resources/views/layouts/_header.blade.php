@@ -4,6 +4,7 @@
     .z-logo img{max-height: 35px}
     .navbar{border-radius: 0px}
     .zremind{ position: relative;top: -48px;display: none;}
+    .posta{background: #E67E22}
 </style>
 <div class="row demo-row">
 <div class="col">
@@ -25,6 +26,9 @@
           </div>
         </div>
       </form>
+      <ul class="nav navbar-nav">
+        <a href="{{ url('/write') }}" class="btn btn-block btn-sm btn-danger posta">发文章</a>
+      </ul>
       <ul class="nav navbar-nav">
         <li><a href="{{ url('user/login') }}">登录</a></li>
         <li><a href="{{ url('user/register') }}">注册</a></li>
