@@ -16,34 +16,38 @@ Route::get('/demo', function () {
 });
 // 首页
 Route::get('/', function () {
-    return view('home');
+    return view('home',['nav'=>'home']);
 });
 // 专题
 Route::get('/thematic', function () {
-    return view('thematic.default');
+    return view('thematic.default',['nav'=>'thematic']);
 });
 // 详情页
 Route::get('/detail', function () {
-    return view('details.default');
+    return view('details.default',['nav'=>'detail']);
 });
 
 // 登录注册
 Route::group(['prefix'=>'user'], function(){
   Route::get('login', function () {
-    return view('user.login');
+    return view('user.login',['nav'=>'login']);
   });
   Route::get('register', function () {
-    return view('user.register');
+    return view('user.register',['nav'=>'register']);
   });
   Route::get('forgot', function () {
-    return view('user.forgot');
+    return view('user.forgot',['nav'=>'forgot']);
+  });
+  Route::get('center', function () {
+    return view('center.default',['nav'=>'center']);
   });
 });
 
 // 写文章
 Route::get('/write', function () {
-  return view('write.post');
+  return view('write.post',['nav'=>'write']);
 });
 
 // 编辑器上传图片
 Route::get('home/upload', 'HomeController@upload');
+

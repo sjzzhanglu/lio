@@ -1,5 +1,5 @@
 @extends('layouts.editor')
-@section('title','写文章')
+@section('title','写新文章')
 @section('editor')
   @include('editor::head')
 @endsection
