@@ -12,7 +12,7 @@
 <div class="col">
   <nav class="navbar navbar-inverse navbar-embossed navbar-expand-lg" role="navigation">
     <a class="navbar-brand" href="{{ url('/') }}">zhanglu.io</a>
-    <a class="ztitle">写新文章</a>
+    <a class="ztitle">@yield('title','未知')</a>
   </nav><!-- /navbar -->
 </div>
 </div>

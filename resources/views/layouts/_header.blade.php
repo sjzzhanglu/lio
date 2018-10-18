@@ -30,8 +30,12 @@
         <a href="{{ url('/write') }}" class="btn btn-block btn-sm btn-danger posta">发文章</a>
       </ul>
       <ul class="nav navbar-nav">
+        @if($nav === 'center')
+        <li><a href="{{ url('user/login') }}">我的主页</a></li>
+        @else
         <li><a href="{{ url('user/login') }}">登录</a></li>
         <li><a href="{{ url('user/register') }}">注册</a></li>
+        @endif
       </ul>
     </div><!-- /.navbar-collapse -->
   </nav><!-- /navbar -->
