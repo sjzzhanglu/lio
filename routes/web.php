@@ -51,3 +51,8 @@ Route::get('/write', function () {
 // 编辑器上传图片
 Route::get('home/upload', 'HomeController@upload');
 
+// 新建专题
+Route::get('/thematic/new', function () {
+  return view('thematic.new',['nav'=>'thematic']);
+});
+
